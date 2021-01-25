@@ -3,6 +3,7 @@ package com.dw.domain;
 public class Person {
     private String id;
     private String name;
+    private Boolean sex;
 
     public Person() {
     }
@@ -21,5 +22,13 @@ public class Person {
 
     public void setName(String name) {
         this.name = name;
+    }
+
+    public Boolean getSex() {
+        return sex;
+    }
+
+    public void setSex(Boolean sex) {
+        this.sex = sex;
     }
 }
